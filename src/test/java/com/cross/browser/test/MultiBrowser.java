@@ -13,11 +13,11 @@ import org.testng.annotations.Test;
 public class MultiBrowser {
 
 	static {
-		System.setProperty("webdriver.gecko.driver",
-				"C:\\Users\\kmani\\Downloads\\geckodriver-v0.32.0-win64\\geckodriver.exe");
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\kmani\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\kmani\\Downloads\\edgedriver_win32\\msedgedriver.exe");
+		System.setProperty("webdriver.chrome.driver",".//Drivers//chromedriver.exe");
+		
+		System.setProperty("webdriver.gecko.driver",".//Drivers//geckodriver.exe");
+			
+		System.setProperty("webdriver.edge.driver", ".//Drivers//msedgedriver.exe");
 
 	}
 	public WebDriver driver;
